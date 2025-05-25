@@ -1,0 +1,68 @@
+<section id="resume" class="resume section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Projects & Professional Experiences</h2>
+        <p>{{projectsPageData?.summary}}</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title">Billing Projects</h3>
+                <div class="resume-item pb-0" *ngFor="let project of projectsPageData?.billingProjects">
+                    <h4><img src="{{project?.logo}}" alt="logo" style="width: 50px; height: 50px;" /> {{project?.name}}</h4>
+                    <i>[{{project?.from}} - {{project?.to}}]</i><br>
+                    <p><em>{{project?.description}}</em></p>
+                    <h6>Worked Technologies</h6>
+                    <ul>
+                        <div *ngFor="let tech of project?.technologies">
+                            <li>{{tech}}</li>
+                        </div>
+                    </ul>
+                </div>
+
+                <h3 class="resume-title">Internal Projects</h3>
+                <div class="resume-item pb-0" *ngFor="let project of projectsPageData?.internalProjects">
+                    <h4><img src="{{project?.logo}}" alt="logo" style="width: 50px; height: 50px;" /> {{project?.name}}</h4>
+                    <i>[{{project?.from}} - {{project?.to}}]</i><br>
+                    <p><em>{{project?.description}}</em></p>
+                    <ul>
+                        <div *ngFor="let tech of project?.technologies">
+                            <li>{{tech}}</li>
+                        </div>
+                    </ul>
+                </div>
+
+                <h3 class="resume-title">Acadamic Projects</h3>
+                <div class="resume-item pb-0" *ngFor="let project of projectsPageData?.academicProjects">
+                    <h4><img src="{{project?.logo}}" alt="logo" style="width: 50px; height: 50px;" /> {{project?.name}}</h4>
+                    <i>[{{project?.from}} - {{project?.to}}]</i><br>
+                    <p><em>{{project?.description}}</em></p>
+                    <ul>
+                        <div *ngFor="let tech of project?.technologies">
+                            <li>{{tech}}</li>
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="resume-title">Professional Experience</h3>
+                <div class="resume-item" *ngFor="let experience of experiencePageData">
+                    <h4><img src="{{experience?.logo}}" alt="logo" style="width: 50px; height: 50px;" /> {{experience.role}}</h4>
+                    <h5>{{experience.from}} - {{experience.to}}</h5>
+                    <p><em>{{experience.company}}</em></p>
+                    <ul>
+                        <div *ngFor="let detail of experience.details">
+                            <li>{{detail}}</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,14 @@
+<p-progressSpinner *ngIf="loading" strokeWidth="2" styleClass="spinner" class="custom-spinner"></p-progressSpinner>
+<section id="skills" class="skills section light-background">
+    <div class="container" data-aos="fade-up">
+        <div class="justify-content-between d-flex align-items-center mb-4">
+            <h2><b>Resume</b></h2>
+            <p-button label="Download" icon="pi pi-download" class="p-button-sm p-button-outlined"
+                styleClass="download-btn" (click)="downloadResume()"></p-button>
+        </div>
+    </div>
+    <div class="pdf-viewer">
+        <!-- <object type="application/pdf" data="https://1drv.ms/b/c/D914C8B334A253E0/IQQ15ElAOc72QomHkKLSYKKyAdOE1R4gMNNwMD76UL5Mwcw#toolbar=0" width="100%" height="550"></object> -->
+        <iframe (load)="onPdfLoad()" (error)="onPdfError()" [src]="sanitizedPdfUrl" width="100%" height="450"></iframe>
+    </div>
+</section>

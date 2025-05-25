@@ -1,0 +1,144 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a2e;
+    padding: 15px 30px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-links li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #e94560;
+    color: white;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 6px;
+    z-index: 20;
+}
+
+.burger .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 50px; /* Adjusted to match the height of the navbar */
+        left: 0;
+        background-color: #1a1a2e;
+        flex-direction: column;
+        width: 250px;
+        height: calc(100% - 53px); /* Adjusted to account for the navbar height */
+        transform: translateX(-100%);
+        overflow: hidden;
+        margin-left: 0;
+        border-right: 1px solid #444;
+        box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-links.active {
+        transform: translateX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-links li {
+        text-align: left;
+        padding: 15px 20px;
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+
+/* Ensure the navbar stays fixed at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e94560;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+/* Add a hover effect for the logo */
+.logo:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+    transition: color 0.3s, text-decoration 0.3s;
+    cursor: pointer;
+}
+/* Add a transition effect for the navbar links */
+.nav-links li a {
+    transition: background-color 0.3s, color 0.3s;
+}
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+}
+/* Add a transition effect for the navbar */
+.navbar {
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+/* Add a shadow effect when scrolling */
+@media (min-width: 769px) {
+    .navbar.scrolled {
+        background-color: #1a1a2e;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+}
+/* Add a transition effect for the nav links */
+.nav-links li a {
+    transition: background-color 0.3s, color 0.3s;
+}
+/* Add a hover effect for the nav links */
+.nav-links li a:hover {
+    background-color: #e94560;
+    color: white;
+}
+/* Add a transition effect for the burger icon */
+.burger {
+    transition: transform 0.3s ease-in-out;
+}
+/* Add a hover effect for the burger icon */
+.burger:hover .line {
+    background-color: #e94560;
+}

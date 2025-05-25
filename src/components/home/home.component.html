@@ -1,0 +1,26 @@
+<p-progressSpinner *ngIf="imageLoaded" strokeWidth="2" styleClass="spinner" class="custom-spinner"></p-progressSpinner>
+<div><!-- Include PrimeNG CSS -->
+    <div class="user-profile" *ngIf="imageLoaded" [ngStyle]="{'background-image': 'url('+homeData.backgroundImgUrl+')'}">
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="{{homeData?.socialMedia?.facebook}}" target="_blank" class="icon-style facebook-icon">
+                <i class="pi pi-facebook"></i>
+            </a>
+            <a href="{{homeData?.socialMedia?.x}}" target="_blank" class="icon-style twitter-icon">
+                <i class="pi pi-twitter"></i>
+            </a>
+            <a href="{{homeData?.socialMedia?.linkedin}}" target="_blank" class="icon-style linkedin-icon">
+                <i class="pi pi-linkedin"></i>
+            </a>
+            <a href="{{homeData?.socialMedia?.instagram}}" target="_blank" class="icon-style instagram-icon">
+                <i class="pi pi-instagram"></i>
+            </a>
+        </div>
+
+        <!-- User Info -->
+        <div class="user-info">
+            <h1 style="margin: 0;">{{homeData.name}}</h1>
+            <h4>I am a <span #typedElement></span></h4>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.navbar-brand {
+    font-size: 2.5rem; /* Slightly larger font size */
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Modern and elegant font */
+    color: #ff5733; /* Vibrant color */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
+    letter-spacing: 1.5px; /* Increased spacing for elegance */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-brand:hover {
+    color: #c70039; /* Change color on hover */
+    transform: scale(1.15) rotate(-2deg); /* Slight zoom and tilt effect */
+}
+
+.nav-link {
+    font-size: 1.2rem; /* Slightly larger font size */
+    font-weight: bold;
+    color: #bdb8b8; /* Darker color for contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+    letter-spacing: 1px; /* Slightly increased spacing for elegance */
+    padding: 0.5rem 1rem; /* Add padding for better click area */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+.nav-link:hover {
+    color: #ff5733; /* Vibrant color on hover */
+    background-color: rgba(255, 87, 51, 0.1); /* Subtle background highlight */
+    transform: scale(1.1); /* Slight zoom effect */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}

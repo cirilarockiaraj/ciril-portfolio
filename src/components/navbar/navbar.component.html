@@ -1,0 +1,16 @@
+<nav class="navbar">
+    <div class="logo" [routerLink]="''">{{navBarItems?.name}}</div>
+    <ul [class.active]="isMenuOpen" class="nav-links">
+        <li><a [routerLink]="''">Home</a></li>
+        <li><a [routerLink]="'about'">About</a></li>
+        <li><a [routerLink]="'skills'">Skills</a></li>
+        <li><a [routerLink]="'resume'">Resume</a></li>
+        <li><a [routerLink]="'project'">Projects & Experience</a></li>
+        <li><a [routerLink]="'contact'">Contact</a></li>
+    </ul>
+    <div class="burger" (click)="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
