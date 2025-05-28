@@ -44,16 +44,20 @@ export class ContactComponent {
   }
 
   onSubmit(){
+    let mailContentToAdmin = {
+      title: 'Contact Form from ' + this.email.name,
+      name: this.email.name,
+      time: new Date().toLocaleString(),
+      message: `Name: ${this.email.name},\nMail ID: ${this.email.email},\n\n${this.email.message}`,
+      email: this.email.email,
+    }
     this.isClicked = true;
-    this.apiService.sendEmail('send-email', this.email).subscribe({
-      next: (res: any) => {
-        alert('Email Sent Successfully!!!');
-        this.isClicked = false;
-      },
-      error: (err) => {
-        alert('Error sending email. Please try again later.');
-        this.isClicked = false;
-      }
-    });
+    this.apiService.sendEmail(mailContentToAdmin).then(()=>{
+      alert('Thankyou for contact me. I will get back to you soon.');
+      this.isClicked = false;
+    }).catch(()=>{
+      alert('Failed to send email to admin.');
+      this.isClicked = false;
+    })
   }
 }

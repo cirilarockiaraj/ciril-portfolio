@@ -18,7 +18,6 @@ export class HomeComponent implements AfterViewInit {
   constructor(private apiService: ApiService) {}
 
   homeData : any;
-
   ngAfterViewInit(): void {
     const options = {
       strings: this.homeData['roles'],

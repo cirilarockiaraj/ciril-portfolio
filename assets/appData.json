@@ -1,0 +1,206 @@
+{
+  "home": {
+    "name": "Ciril Arockiaraj S",
+    "roles": [
+      "Spring Boot Developer",
+      "Selenium Developer",
+      "Guidewire Developer",
+      "SmartComm Developer"
+    ],
+    "backgroundImgUrl": "https://1drv.ms/i/c/D914C8B334A253E0/IQQa8aG5gVnVQ5M1uGKthj8UAUTC5ttde_RDz0YaJ9lATWo",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/ciril804/?__pwa=1",
+      "facebook": "https://www.facebook.com/share/1EAbrFHzyc/",
+      "linkedin": "https://www.linkedin.com/in/ciril-arockiaraj-s-b3085930b",
+      "x": "https://x.com/cirilarockiaraj"
+    }
+  },
+  "about": {
+    "description1": "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+    "description2": "",
+    "description3": "",
+    "profileImgUrl": "https://1drv.ms/i/c/D914C8B334A253E0/IQRMCWKHioHCQbgCiBisy86gAfiq3m03_YM8-tY0mtk5zi4",
+    "role": "Software Developer",
+    "dob": "14 - May - 2001",
+    "website": "",
+    "phone": "6382810644",
+    "address": "Viralimalai, Pudukkottai",
+    "age": "23",
+    "degree": "MSc, Computer Science",
+    "email": "cirilarockiaraj@outlook.com",
+    "freelance": "None"
+  },
+  "skills": {
+    "description": "I completed my Bachelor of Computer Applications (BCA) from St. Joseph's College between 2018 and 2021, achieving a Cumulative Grade Point Average (CGPA) of 7.5. Throughout my academic journey, I gained a strong foundation in computer programming, database management, web development, and software engineering principles.",
+    "technicalSkills": [
+      {
+        "name": "HTML",
+        "value": "50"
+      },
+      {
+        "name": "JavaScript",
+        "value": "40"
+      },
+      {
+        "name": "Java",
+        "value": "80"
+      },
+      {
+        "name": "Python",
+        "value": "50"
+      },
+      {
+        "name": "MS SQL",
+        "value": "30"
+      },
+      {
+        "name": "MySQL",
+        "value": "40"
+      },
+      {
+        "name": "MongoDB",
+        "value": "40"
+      },
+      {
+        "name": "PHP",
+        "value": "50"
+      },
+      {
+        "name": "Guidewire Inc.",
+        "value": "10"
+      },
+      {
+        "name": "Spring Boot",
+        "value": "60"
+      },
+      {
+        "name": "Selenium",
+        "value": "60"
+      },
+      {
+        "name": "SmartComm",
+        "value": "10"
+      }
+    ]
+  },
+  "resume": {
+    "resumeId": "1vVWl4bDvhMHY5pJCo_JnZLaffmrJZrcK",
+    "resumeUrl": "https://drive.google.com/file/d/1vVWl4bDvhMHY5pJCo_JnZLaffmrJZrcK/preview",
+    "summary": {
+      "name": "Ciril Arockiaraj S",
+      "description": "Passionate software developer with expertise in Java, Guidewire PolicyCenter, Selenium automation, and web development. Experienced in building scalable applications, automating testing processes, and designing document templates by Using Advance Template Designer. Strong problem-solving skills with hands-on experience in migration projects and database management.",
+      "address": "780, Mela theru, Mullaiyur, Viralimalai, Pudukkottai(Dt), Tamil Nadu",
+      "phone": "+91 6382810644",
+      "email": "cirilarockiaraj@gamil.com"
+    },
+    "education": [
+      {
+        "course": "Master of Science in Computer Science",
+        "durationYears": "2021 - 2023",
+        "institute": "St. Joseph's College (Autonomous), Trichy",
+        "description": "I have successfully completed my Master of Science (M.Sc.) in Computer Science at St. Joseph's College, achieving a CGPA of 8.4. Throughout my academic journey, I gained in-depth knowledge of various computer science domains, including software development, web technologies, database management, and programming languages."
+      },
+      {
+        "course": "Bachelor of Computer Applications",
+        "durationYears": "2018 - 2021",
+        "institute": "St. Joseph's College (Autonomous), Trichy",
+        "description": "I completed my Bachelor of Computer Applications (BCA) from St. Joseph's College between 2018 and 2021, achieving a Cumulative Grade Point Average (CGPA) of 7.5. Throughout my academic journey, I gained a strong foundation in computer programming, database management, web development, and software engineering principles."
+      }
+    ],
+    "experience": [
+      {
+        "role": "Junior Software Developer",
+        "companyName": "Newdream Data Systems",
+        "durationYears": "2023 - Present",
+        "companyAddress": "p/24/1, Amman Nagar , Ellakudi, Tiruchirappalli, Tamil Nadu 620019",
+        "description": [
+          "I have experience working with Guidewire, particularly in developing PolicyCenter forms and designing Thunderhead document templates with data mapping.",
+          "I have experience in Selenium and have developed a testing automation tool in Java Selenium for policy processing from the UI.",
+          "I have experience working on a conversion project, migrating a Mulesoft project to SnapLogic pipelines using Java Spring Boot and JSON templates."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "summary":"Results-driven Software Developer with strong expertise in building scalable applications using Java, Spring Boot, and modern web technologies. Experienced in developing RESTful microservices, automating test workflows with Selenium, and designing end-to-end integration solutions using SnapLogic and Mulesoft. Proven ability to lead backend development for enterprise-grade systems such as Guidewire PolicyCenter, including form customization and document generation with Thunderhead. Adept at full software development lifecycle (SDLC), from requirement analysis to deployment and maintenance. Passionate about clean code, performance optimization, and cross-functional collaboration.",
+    "billingProjects":[
+      {
+        "name": "WRG Insurance (Guidewire inc.)",
+        "logo" : "https://cdn.brandfetch.io/guidewire.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
+        "from":"April 2023",
+        "to" : "June 2024",
+        "description": "I have experience working with Guidewire, particularly in developing PolicyCenter forms and designing Thunderhead document templates with data mapping.",
+        "technologies": [
+          "Guidewire PolicyCenter",
+          "Thunderhead",
+          "GOSU"
+        ]
+      }
+    ],
+    "internalProjects":[
+      {
+        "name": "Selenium Automation Tool",
+        "logo":"https://www.drupal.org/files/images/big-logo.png",
+        "from":"June 2024",
+        "to" : "October 2024",
+        "description": "I have experience in Selenium and have developed a testing automation tool in Java Selenium for policy processing from the UI.",
+        "technologies": [
+          "Selenium",
+          "Java"
+        ]
+      },
+      {
+        "name": "Mulesoft to SnapLogic Migration Tool",
+        "logo":"https://media.licdn.com/dms/image/v2/C4E0BAQG06s_iA44q3Q/company-logo_200_200/company-logo_200_200/0/1631364003430/dataacs_logo?e=2147483647&v=beta&t=ZCoidJXsbnz3ZKfS_MbSvLrtucfZmGpfI-zl0LEqilg",
+        "from":"November 2024",
+        "to" : "Present",
+        "description": "I have experience working on a conversion project, migrating a Mulesoft project to SnapLogic pipelines using Java Spring Boot and JSON templates.",
+        "technologies": [
+          "Mulesoft",
+          "SnapLogic",
+          "Java Spring Boot"
+        ]
+      }
+    ],
+    "academicProjects":[
+      {
+        "name": "Electricity Board",
+        "logo":"https://previews.123rf.com/images/dmvector/dmvector2002/dmvector200200113/140869177-lightning-electric-power-icon-vector.jpg",
+        "from":"November 2022",
+        "to" : "February 2023",
+        "description": "I have experience working on a electricity board project, Provided the electricty related services based on the user roles admin, employees and consumers to handle the electricity related works like getting new service, service approval, eb bill payment and get reading electricity usage etc...",
+        "technologies": [
+          "JSP",
+          "Servlet",
+          "MySQL",
+          "Ajax",
+          "Javascript"
+        ]
+      }
+    ]
+  },
+  "experience":{
+    "professionalExperience":[
+      {
+        "role":"Software Developer",
+        "logo" : "https://media.licdn.com/dms/image/v2/D4D0BAQHxUyQANkhOgg/company-logo_200_200/company-logo_200_200/0/1723607218436/newdream_data_systems_logo?e=2147483647&v=beta&t=6yQpJrS7GZIyKk8hoQr5dDTR5DrBSay89QMb6pmbJtA",
+        "from":"2023",
+        "to" : "Present",
+        "company":"Newdream Data Systems, p/24/1, Amman Nagar , Ellakudi, Tiruchirappalli, Tamil Nadu 620019",
+        "details":[
+          "Started my professional journey as a Guidewire Developer, specializing in \"PolicyCenter\" for one year. During this time, I was responsible for designing insurance forms and templates using Guidewire technologies. I worked on various projects involving PCF, forms, data mapping, XML, and DiffTree projects.",
+          "Developed and maintained automation scripts for internal projects using Selenium over a span of six months, greatly enhancing the efficiency and reliability of business processes.",
+          "Currently serving as a Software Developer in the Internal Conversion Product Team, where I apply problem-solving skills and in-depth analysis to develop effective solutions for time-consuming challenges. I proficiently utilize “Java”, “Spring Boot”, and “MySQL” to create API solutions.",
+          "Developed and integrated \"RESTful APIs\""
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "description":"",
+    "address": "780, Mela theru, Mullaiyur, Viralimalai, Pudukkottai(Dt), Tamil Nadu",
+    "phone": "+91 6382810644",
+    "email": "cirilarockiaraj@gamil.com",
+    "mapIFrame": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d212.23138393948418!2d78.59402599565541!3d10.606279611299222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1738507736891!5m2!1sen!2sin"
+  }
+}
